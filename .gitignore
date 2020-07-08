@@ -1,0 +1,53 @@
+# Compiled class file
+*.class
+.gradle/
+bin/
+build/
+config/findbugs
+config/**/*
+jobs/
+out/
+test_jobs/
+/.nb-gradle/
+spark-warehouse/
+
+# Eclipse #
+.classpath
+.project
+.settings/
+
+# Log file
+*.log*
+
+# BlueJ files
+*.ctxt
+
+# IntelliJ IDEA #
+.idea
+*.iws
+*.iml
+*.ipr
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+### Testah ###
+results.*
+testah.properties
+testahOutput/*
+envir_local.properties
+summaryResults.html
+*.parquet.crc
+*.DS_Store
